@@ -1,4 +1,5 @@
 {
+  "homepage": "http://balu123458.github.io/flicker-trinket.github.io",
   "name": "flicker-trinket",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000 "
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
